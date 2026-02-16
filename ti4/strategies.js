@@ -769,7 +769,7 @@ function FctAction(el)
     var s1Played = false;
     var s2Played = false;
 
-    // Unselect all other buttons so that the selected one will be highlighted
+    // Unselect all other buttons so that only the selected one will be highlighted. This usually happens when the user clicks on an action, then decides to click on another action before confirming.
     document.getElementById("idActionS1").classList.remove("clActionActive");
     document.getElementById("idActionS2").classList.remove("clActionActive");
     document.getElementById("idActionTactical").classList.remove("clActionActive");
