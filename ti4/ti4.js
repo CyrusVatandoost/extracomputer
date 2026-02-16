@@ -285,7 +285,13 @@ var factionList = [
 ["The Vaylerian Scourge", "The Vaylerian Scourge", "The Vaylerian Scourge", "The Vaylerian Scourge", "The Vaylerian Scourge", "The Vaylerian Scourge", "The Vaylerian Scourge", IMG_FOLDER + "vaylerian.png", "", "Vaylerian"],
 ["The Veldyr Sovereignty", "The Veldyr Sovereignty", "The Veldyr Sovereignty", "The Veldyr Sovereignty", "The Veldyr Sovereignty", "The Veldyr Sovereignty", "The Veldyr Sovereignty", IMG_FOLDER + "veldyr.png", "", "Veldyr"],
 ["The Zelian Purifier", "The Zelian Purifier", "The Zelian Purifier", "The Zelian Purifier", "The Zelian Purifier", "The Zelian Purifier", "The Zelian Purifier", IMG_FOLDER + "zelian.png", "", "Zelian"],
-["The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", IMG_FOLDER + "drahn.png", "", "Drahn"]
+["The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", "The Drahn Consortium", IMG_FOLDER + "drahn.png", "", "Drahn"],
+["The Council Keleres", "The Council Keleres", "The Council Keleres", "The Council Keleres", "The Council Keleres", "The Council Keleres", "The Council Keleres", IMG_FOLDER + "keleres.png", "", "Keleres"],
+["The Crimson Rebellion", "The Crimson Rebellion", "The Crimson Rebellion", "The Crimson Rebellion", "The Crimson Rebellion", "The Crimson Rebellion", "The Crimson Rebellion", IMG_FOLDER + "crimson.png", "", "Crimson Rebellion"],
+["The Deepwrought Scholarate", "The Deepwrought Scholarate", "The Deepwrought Scholarate", "The Deepwrought Scholarate", "The Deepwrought Scholarate", "The Deepwrought Scholarate", "The Deepwrought Scholarate", IMG_FOLDER + "deepwrought.png", "", "Deepwrought Scholarate"],
+["The Firmament / The Obsidian", "The Firmament / The Obsidian", "The Firmament / The Obsidian", "The Firmament / The Obsidian", "The Firmament / The Obsidian", "The Firmament / The Obsidian", "The Firmament / The Obsidian", IMG_FOLDER + "firmament.png", "", "Firmament / The Obsidian"],
+["Last Bastion", "Last Bastion", "Last Bastion", "Last Bastion", "Last Bastion", "Last Bastion", "Last Bastion", IMG_FOLDER + "lastbastion.png", "", "Last Bastion"],
+["The Ral Nel Consortium", "The Ral Nel Consortium", "The Ral Nel Consortium", "The Ral Nel Consortium", "The Ral Nel Consortium", "The Ral Nel Consortium", "The Ral Nel Consortium", IMG_FOLDER + "ralnel.png", "", "Ral Nel Consortium"],
 ];
 
 const HACAN_FACTION = 4;
@@ -296,7 +302,6 @@ const POK_FACTION = 17;
 const CODEX_FACTION = 24;
 const DS_FACTION = 25;
 const DRAHN_FACTION = 59;
-
 
 var playerColorList = [
 "black",
