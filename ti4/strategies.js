@@ -769,6 +769,12 @@ function FctAction(el)
     var s1Played = false;
     var s2Played = false;
 
+    // Unselect all other buttons so that the selected one will be highlighted
+    document.getElementById("idActionS1").classList.remove("clActionActive");
+    document.getElementById("idActionS2").classList.remove("clActionActive");
+    document.getElementById("idActionTactical").classList.remove("clActionActive");
+    document.getElementById("idActionPass").classList.remove("clActionActive");
+
     el.classList.toggle("clActionActive");
 
     var idActionS1 = document.getElementById("idActionS1");

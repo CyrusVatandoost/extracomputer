@@ -1140,7 +1140,9 @@ button:disabled{
     width: fit-content;
 }
 
-.clActionActive {background-color: orange;}
+.clActionActive {
+    background-color: orange;
+}
 
 #idActionTxt{
     line-height: 3em;
